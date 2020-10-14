@@ -1,0 +1,22 @@
+{
+  "name": "webpack_course",
+  "version": "1.0.0",
+  "description": "Webpack test course basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "webpack",
+    "node"
+  ],
+  "author": "Danil",
+  "license": "ISC",
+  "dependencies": {
+    "install": "^0.13.0",
+    "webpack": "^5.1.0",
+    "webpack-cli": "^4.0.0"
+  }
+}
