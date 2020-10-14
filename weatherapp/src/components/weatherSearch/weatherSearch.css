@@ -1,0 +1,56 @@
+.weather-search{
+    position: relative;
+}
+
+.weather-search input{
+    width: 300px;
+    padding: 10px;
+    padding-right: 40px;
+
+    border: 2px solid rgba(214, 214, 214, 0.5);
+    background-color: inherit;
+
+    color: white;
+    font-size: 30px;
+}
+
+.weather-search input::placeholder{
+    background-color: inherit;
+}
+
+.weather-search button{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+
+    width: 25px;
+    height: 20px;
+
+    border:0;
+    background-color: inherit;
+
+    position: absolute;
+    right: 15px;
+
+    cursor: pointer;
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    background: url("./right-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.weather-search button:hover,
+.weather-search button:focus,
+.weather-search button:active{
+    transform: rotate(90deg);
+}
+
+.weather-search--title{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
