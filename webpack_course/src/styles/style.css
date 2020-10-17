@@ -1,0 +1,11 @@
+@import "~normalize.css";
+@import "fonts.css";
+
+*{
+    font-family: "Sansita Swashed", sans-serif;
+}
+
+.container{
+    font-size: 50px;
+    color: green;
+}

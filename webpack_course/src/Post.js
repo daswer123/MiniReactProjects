@@ -1,3 +1,5 @@
+
+
 class Post {
     constructor(title){
         this.title = title;
@@ -11,3 +13,5 @@ class Post {
         })
     }
 }
+
+export default Post
