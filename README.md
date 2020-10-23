@@ -6,3 +6,5 @@
 https://weather-app-crocodile.web.app
 
 2 - Цветовая политра, кликни на любой цвет и посмотри как он будет выглядить
+
+https://weather-app-crocodile.web.app
